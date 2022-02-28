@@ -15,6 +15,10 @@ set firewall name DMZ-to-WAN rule 10 description 'Allows web01 to connect to 123
 set firewall name DMZ-to-WAN rule 10 destination port '123'
 set firewall name DMZ-to-WAN rule 10 protocol 'udp'
 set firewall name DMZ-to-WAN rule 10 source address '172.16.50.3'
+set firewall name DMZ-to-WAN rule 15 action 'accept'
+set firewall name DMZ-to-WAN rule 15 description 'Allows jump to initiate connections'
+set firewall name DMZ-to-WAN rule 15 source address '172.16.50.4'
+set firewall name DMZ-to-WAN rule 15 state new 'enable'
 set firewall name LAN-to-DMZ default-action 'drop'
 set firewall name LAN-to-DMZ enable-default-log
 set firewall name LAN-to-DMZ rule 10 action 'accept'
