@@ -10,5 +10,7 @@
 
 ## [Week 5](https://github.com/Michael-Pinelli/SEC-350/wiki/Week-5)
 
+## [Week 6](https://github.com/Michael-Pinelli/SEC-350/wiki/Week-6)
+
 ## Journal
 [Journal](https://github.com/Michael-Pinelli/SEC-350/wiki)
